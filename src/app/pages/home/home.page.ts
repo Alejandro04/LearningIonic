@@ -29,6 +29,11 @@ export class HomePage implements OnInit {
       icon: 'beaker-outline',
       name: 'Avatar',
       redirectTo: '/avatar'
+    },
+    {
+      icon: 'radio-button-off-outline',
+      name: 'Buttons',
+      redirectTo: '/buttons'
     }
   ];
 
@@ -37,5 +42,4 @@ export class HomePage implements OnInit {
   ngOnInit() {
     this.srcAvatar = "https://alejodev.com/static/4bacf9c87ae8fdf839e2837d9edf8098/3f23b/profile-pic.avif";
   }
-
 }
