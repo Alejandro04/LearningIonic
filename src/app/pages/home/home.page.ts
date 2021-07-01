@@ -40,6 +40,11 @@ export class HomePage implements OnInit {
       icon: 'caret-up-outline',
       name: 'Cards',
       redirectTo: '/cards'
+    },
+    {
+      icon: 'checkmark-circle-outline',
+      name: 'Checkbox',
+      redirectTo: '/checkbox'
     }
   ];
 
